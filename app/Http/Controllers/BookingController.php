@@ -25,7 +25,7 @@ class BookingController extends Controller
      */
     public function store(Request $request)
     {
-        // 1. Validate request test
+        // 1. Validate request test test 2
         $request->validate([
             'service_id' => 'required|integer|exists:services,id',
             'start_time' => 'required|date_format:Y-m-d H:i:s',
